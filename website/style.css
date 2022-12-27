@@ -1,0 +1,160 @@
+body {
+    background: #1e1e1b;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: url(flawer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height: 100vh;
+    color:rgb(17, 141, 186);
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+
+.holder {
+        background: rgb(186, 175, 110);
+        text-align: center;
+        border-radius: 30%;
+
+}
+
+.entry {
+    background: rgba(101, 140, 223, 0.4);
+    text-align: center;
+
+}
+
+#entryHolder {
+    text-align: center;
+
+}
+.feel{
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+
+}
+#date {
+  background-color: rgb(214, 8, 94);
+  color: rgb(19, 0, 0);
+
+text-align: center;
+        border-radius: 50%;}
+
+#temp {background: white;
+  text-align: center;
+        border-radius: 50%;
+}
+
+#content {
+        color: black;
+        background-color: rgb(214, 8, 94);
+        text-align: center;
+        border-radius: 50%;
+}
+
+.headline {
+  color: #ff0088;
+margin-top: 10px;
+padding-top: 10px;
+height:70px;}
+
+.title {color: white;}
+
+label {
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+justify-content: center;    
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    width: 200px;
+        height: 75px;
+        background: #3b4a6b;
+        color: #ff0088;
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        box-shadow: 2px 4px 5px #444;
+        margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background: #0f1010;
+    color: #ece3eb;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #ff0088;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ff0088;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ff0088;
+    font-family: 'Oswald', sans-serif;
+
+}
+#zip{
+  background: rgb(17, 16, 17);
+  text-align: center;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: 900;
+}
+#generate{
+  background-color:white;
+  border-radius: 50%;
+  padding: 5px;
+}
+#generate:hover{
+  font-size: 30px;
+  cursor: pointer;
+  color: #ff0088;
+  transition: 4s;
+  transform: matrix();
+background-color: #3b4a6b;
+}
+#feelings{
+  text-align: center;
+}
